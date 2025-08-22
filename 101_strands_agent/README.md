@@ -1,6 +1,6 @@
 # Simple Agent Examples
 
-This directory contains basic AI agent examples built using the Strands framework and AWS Bedrock. These examples demonstrate different agent configurations and capabilities.
+This directory contains basic AI agent examples built using the Strands framework and AWS Bedrock. These examples demonstrate different agent configurations and capabilities. Refer [strandsagent official guide for details]([url](https://strandsagents.com/latest/documentation/docs/user-guide/quickstart/)). https://strandsagents.com/latest/documentation/docs/user-guide/quickstart/
 
 ## Prerequisites
 
