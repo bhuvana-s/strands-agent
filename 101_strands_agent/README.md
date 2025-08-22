@@ -23,7 +23,7 @@ Before running these agents, ensure you have completed the setup from the main p
 # From the project root directory
 source venv/bin/activate
 export AWS_DEFAULT_REGION=us-east-1
-python ./01_simple_agent/agent.py
+python ./101_strands_agent/agent.py
 ```
 
 **Expected Output**:
@@ -48,7 +48,7 @@ pip install strands-agents-tools
 # From the project root directory
 source venv/bin/activate
 export AWS_DEFAULT_REGION=us-east-1
-python ./01_simple_agent/agent_calculator.py
+python ./101_strands_agent/agent_calculator.py
 ```
 
 **Expected Output**:
@@ -73,7 +73,7 @@ pip install strands-agents-tools
 # From the project root directory
 source venv/bin/activate
 export AWS_DEFAULT_REGION=us-east-1
-python ./01_simple_agent/agent_current_dir.py
+python ./101_strands_agent/agent_current_dir.py
 ```
 
 **Model Used**: `amazon.nova-micro-v1:0`
