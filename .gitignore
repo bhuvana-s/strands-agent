@@ -1,0 +1,34 @@
+# Ignore everything by default
+*
+
+# Allow only 101_strands_agent directory and its contents
+!101_strands_agent/
+!101_strands_agent/**
+
+# Allow essential project files
+!README.md
+!.gitignore
+
+# Python cache files (ignore even in allowed directories)
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Virtual environments (ignore even in allowed directories)
+**/venv/
+**/env/
+**/.venv/
+
+# IDE files (ignore even in allowed directories)
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+
+# OS files (ignore even in allowed directories)
+**/.DS_Store
+**/Thumbs.db
+**/*.tmp
+
+# Logs (ignore even in allowed directories)
+**/*.log
